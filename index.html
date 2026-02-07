@@ -8,13 +8,32 @@
     <title>Document</title>
 </head>
 
-<body>
+<body class="m-5">
     <div class="flex justify-between items-center">
-        <h1 class="text-[2rem] font-bold">My Postcard</h1>
-        <div class="w-20 h-20 border border-red-500">
-            <img class="object-cover w-full" src="https://raw.githubusercontent.com/breatheco-de/exercise-postcard/e63a7916530cc850bd92aa1c2e19191837fb5c80/.learn/assets/4geeks.png"
+        <h1 class="text-4xl font-['Comic_Sans_MS',cursive] font-bold">My Postcard</h1>
+        <div class="w-20 h-20">
+            <img class="object-cover h-full"
+                src="https://raw.githubusercontent.com/breatheco-de/exercise-postcard/e63a7916530cc850bd92aa1c2e19191837fb5c80/.learn/assets/4geeks.png"
                 alt="stamp">
         </div>
+    </div>
+    <div class="grid grid-cols-2 gap-5 w-full mb-10">
+        <div>
+            <p class="font-['Comic_Sans_MS',cursive] mb-4">Look how awesome! This is a postcard that I created using
+                HTML5 and CSS3 during my 4Geeks Academy course!</p>
+            <p class="font-['Comic_Sans_MS',cursive]">This is so cool, can't wait to start doing more stuff!</p>
+        </div>
+        <div>
+            <input class="w-full border-b border-gray-200 mb-5 font-['Comic_Sans_MS',cursive] pb-1" type="text"
+                placeholder="Some name">
+            <input class="w-full border-b border-gray-200 mb-5 font-['Comic_Sans_MS',cursive] pb-1" type="text"
+                placeholder="Some email">
+            <input class="w-full border-b border-gray-200 mb-5 font-['Comic_Sans_MS',cursive] pb-1" type="text"
+                placeholder="Some comment">
+        </div>
+    </div>
+    <div class="flex justify-center w-full">
+        <button class="bg-gray-300 font-['Comic_Sans_MS',cursive] text-lg px-4 pb-2">Send My Postcard</button>
     </div>
 </body>
 
